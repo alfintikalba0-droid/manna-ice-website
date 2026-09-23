@@ -3,10 +3,14 @@ export const BUSINESS = {
   name: 'MANNA ICE',
   tagline: 'Pure. Fresh. Reliable.',
   // International format, digits only (no +, spaces or dashes). Used for WhatsApp orders.
-  whatsapp: '2348163505998',
-  phoneDisplay: '0816 350 5998',
+  whatsapp: '2349049101070',
+  // Numbers customers can call. `tel` is what the phone dials, `label` is what they read.
+  phones: [
+    { tel: '+2347035590020', label: '0703 559 0020' },
+    { tel: '+2349049101070', label: '0904 910 1070' },
+  ],
   email: 'orders@mannaice.com', // placeholder — replace with your real email
-  address: 'House 29, Patrick Koshoni Street, Karshi Road, Navy Estate, Orozo',
+  address: 'Navy Estate, Patrick Koshoni, Karshi',
   hours: 'Mon–Sun · 7:00 AM – 9:00 PM', // placeholder — replace with your real hours
   currency: '₦',
   pricePerBlock: 700,

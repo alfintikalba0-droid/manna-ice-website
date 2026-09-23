@@ -22,7 +22,7 @@ export const PRODUCTS: Product[] = [
     size: '1 block',
     blocks: 1,
     price: block(1),
-    image: '/blocks-2.jpg',
+    image: '/blocks-clear.jpg',
     blurb: 'One solid, crystal-clear block. Perfect for the home freezer, a cooler or a small gathering.',
     notes: [
       { label: 'Water', ingredient: 'TREATED & SAFE' },

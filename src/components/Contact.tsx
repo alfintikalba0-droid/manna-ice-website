@@ -33,7 +33,11 @@ export default function Contact() {
           <p className="text-sm mt-6 max-w-sm text-white/80">Wholesale pricing, standing orders, events or a quick question — we reply fast.</p>
           <dl className="mt-10 grid grid-cols-[auto_1fr] gap-x-6 gap-y-3 text-sm">
             <dt className="text-xs font-bold uppercase tracking-widest pt-0.5 text-accent">Call</dt>
-            <dd><a className="underline" href={`tel:+${BUSINESS.whatsapp}`}>{BUSINESS.phoneDisplay}</a></dd>
+            <dd className="flex flex-col gap-1">
+              {BUSINESS.phones.map((p) => (
+                <a key={p.tel} className="underline" href={`tel:${p.tel}`}>{p.label}</a>
+              ))}
+            </dd>
             <dt className="text-xs font-bold uppercase tracking-widest pt-0.5 text-accent">WhatsApp</dt>
             <dd><a className="underline" href={whatsappLink(`Hi ${BUSINESS.name}!`)} target="_blank" rel="noreferrer">Chat now</a></dd>
             <dt className="text-xs font-bold uppercase tracking-widest pt-0.5 text-accent">Email</dt>

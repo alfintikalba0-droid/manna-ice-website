@@ -40,7 +40,7 @@ export default function App() {
           video={VIDEOS.finder}
           gallery={[
             { src: '/blocks-1.jpg', caption: 'Perfectly shaped for longer use' },
-            { src: '/blocks-2.jpg', caption: 'Crystal clear. Extra strong.' },
+            { src: '/blocks-clear.jpg', caption: 'Crystal clear. Extra strong.' },
           ]}
           panelSide="left"
         />
