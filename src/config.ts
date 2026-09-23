@@ -9,7 +9,7 @@ export const BUSINESS = {
     { tel: '+2347035590020', label: '0703 559 0020' },
     { tel: '+2349049101070', label: '0904 910 1070' },
   ],
-  email: 'orders@mannaice.com', // placeholder — replace with your real email
+  email: 'mannaicecompany@gmail.com',
   address: 'Navy Estate, Patrick Koshoni, Karshi',
   hours: 'Mon–Sun · 7:00 AM – 9:00 PM', // placeholder — replace with your real hours
   currency: '₦',
